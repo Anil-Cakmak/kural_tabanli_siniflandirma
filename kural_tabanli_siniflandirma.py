@@ -7,7 +7,7 @@ import seaborn as sns
 df = pd.read_csv(r"persona.csv")
 
 
-def check_df(dataframe, head=5, quantiles=(0, 0.05, 0.50, 0.95, 0.99, 1)):
+def check_df(dataframe, head=5, quantiles=(0.05, 0.50, 0.95, 0.99, 1)):
     print("##################### Shape #####################")
     print(dataframe.shape)
     print("##################### Types #####################")
